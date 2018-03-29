@@ -1,0 +1,201 @@
+/* ========================= GENERAL TAGS ======================== */
+
+body, html {
+    height:100%;
+    margin:0;
+    font-size:16px;
+    font-family:"Lato", sans-serif;
+    font-weight: 400;
+    line-height:1.8em;
+    background-color: #FAFAFA;
+}
+
+nav {
+    background-color: #FAFAFA;
+    height: 94px;
+}
+
+.img-container {
+    background-image: url('../img/homebanner.jpg');
+    height: 85%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 0% 0% 150% 150%/0% 0% 40% 40%;
+}
+
+
+/* ========================= Layout ======================== */
+
+.banner-container {
+    text-align: center;
+    padding-top: 125px;
+}
+.search-form {
+    margin-top: 35px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.searchbar::placeholder {
+    color: #848484;
+
+}
+
+.elemenets-container {
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+
+
+.graph-container {
+    padding-left: 125px;
+}
+.text-section {
+    width: 90%;
+}
+
+/* ========================= Sections Style ======================== */
+
+.section-two {
+    background-color: #F4F4F4;
+    
+}
+
+
+
+
+/* ========================= Customs Settings ======================== */
+    .site_name {
+        color: #373A39;
+        font-family: "Raleway", sans-serif;
+        text-transform: uppercase;
+        font-size: 1.5em;
+        font-weight: 500;
+        line-height: 29px;
+
+     
+    }
+    .logo_brand {
+        margin-right: 19px;
+        
+     
+    }
+    .nav-item {
+        text-transform: uppercase;
+        margin-left: 49px;
+        
+    }
+    #mynav_item a {
+        color:#373A39;
+        font-family: "Raleway", sans-serif;
+        font-size: 0.75em;
+        font-weight: bold;
+        line-height: 14px;
+        letter-spacing: 1px;
+    }
+
+    .header-banner {
+        font-family: "Raleway", sans-serif;
+        font-size: 6.25em;
+        font-weight: 600;
+        line-height: 117px;
+    }
+
+    .header-paragraph {
+        color: #FAFAFA;
+        opacity: 0.95;
+        font-family: "Raleway", sans-serif;
+        font-size: 1.5em;
+        font-weight: 500;
+        line-height: 29px;
+    }
+
+    .searchbar {
+        background-color: #F5F5F5;
+        height: 55px;
+        border: 1px solid #F5F5F5;
+        border-radius: 40px;
+        font-family: "Lato", sans-serif;
+        font-size: 1.2em;
+        font-weight: 500;
+        text-align: left;
+        padding-top: 7px;
+        padding-left: 30px;
+    }
+    
+    .search-icon {
+        color: black;
+        opacity: 0.7;
+        font-size: 31px;
+        position: absolute;
+        top: 25%;
+        right: 30px;
+    }
+
+    .scroll-btn {
+        margin-top: 8rem;
+    }
+
+    .uicircle-img {
+        width: 75%;
+    }
+
+    .ui-pleases-our-eyes, .ux-pleases-our-mind {
+        text-align: center;
+        opacity: 0.75;
+        color: #373A39;
+        font-size: 2.25em;
+        font-weight: 600;
+        line-height: 53px;
+    }
+
+    .ui-ux_paragraph {
+        color: #373A39;
+        font-family: "Lato", sans-serif;
+        font-size: 0.875em;
+        line-height: 26px;
+        text-align: left;
+        margin-top: 35px;
+        margin-left: 15px;
+    }
+
+    .check-out-best-and-w {
+        opacity: 0.75;
+        color: #373A39;
+        font-family: "Raleway", sans-serif;
+        font-size: 2.25em;
+        font-weight: 600;
+        line-height: 53px;
+    }
+
+    .stats_paragraph {
+        color: #373A39;
+        font-family: "Lato", sans-serif;
+        font-size: 1.125em;
+        line-height: 35px;
+    }
+    /*
+    .graph-img {
+        width: 80%;
+        margin-right: 0;
+    }
+*/
+
+
+/* ========================= Media Queries ======================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
