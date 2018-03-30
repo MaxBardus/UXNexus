@@ -81,7 +81,16 @@ nav {
     background: linear-gradient(90deg, #2C3E50 0%, #3498DB 100%);
     box-shadow          : 0 30px 50px -20px rgba(52,152,219,0.2);
 }
-
+.trend-fluent {
+    border-radius: 10px;
+    background: linear-gradient(90deg, #182848 0%, #4B6CB7 100%);
+    box-shadow          : 0 30px 50px -20px rgba(75,108,183,0.2);
+}
+.trend-skeuom {
+    border-radius: 10px;
+    background: linear-gradient(90deg, #283048 0%, #859398 100%);
+    box-shadow          : 0 30px 50px -20px rgba(133,147,152,0.2);
+}
 .flat-header {
     color               : #FFFFFF;
     text-transform      : uppercase;
