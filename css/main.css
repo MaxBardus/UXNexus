@@ -56,6 +56,9 @@ nav {
 .text-section {
     width               : 90%;
 }
+.spacing {
+    margin-bottom: 60px;
+}
 
 /* ========================= Section Style ======================== */
 
@@ -98,7 +101,7 @@ nav {
     font-size           : 1.5em;
     font-weight         : 600;
     line-height         : 20px;
-    letter-spacing      : 7.35px;
+    letter-spacing      : 6px;
  /*   margin-left         : 2.1875rem; */
     margin-top          : 0.9375rem;
 }
@@ -175,6 +178,7 @@ nav {
     line-height: 27px;
     font-weight: 300;
     letter-spacing: 0.3px;
+    font-size: 1.1em;
 }
 
 
@@ -322,6 +326,33 @@ nav {
 
 /* ========================= Media Queries ======================== */
 
+@media (max-width: 991.98px) { 
+    .header-banner {
+        font-size: 3.5em;
+    }
+    .header-paragraph {
+        font-size: 1.3em;
+    }
+    .search-icon {
+        display: none;
+    }
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+ 
+ .trend-material, .trend-human, .trend-fluent, .trend-skeuom {
+    min-height: 340px;
+}
+
+
+.discover {
+    text-align: left;
+    position: absolute;
+    bottom: 7%;
+}
+
+}
 
 
 
