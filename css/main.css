@@ -66,6 +66,19 @@ nav {
     background-color    : #F4F4F4;
     
 }
+.section-form {
+    background-color: #F4F4F4;
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+footer {
+    background-color: #F4F4F4;
+}
+.footer-inner {
+    border-top: 1px solid #CCCCCC;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
 
 /* ========================= Cards ======================== */
 .trend-flat {
@@ -181,7 +194,126 @@ nav {
     font-size: 1.1em;
 }
 
+/* ========================= Form ======================== */
 
+.sign-up-form {
+    max-width: 540px;
+    
+    margin: 0 auto;
+    padding: 10px 20px;
+    background: #FFFFFF;
+    border-radius: 15px;
+    box-shadow: 0 0 24px 0 rgba(0,0,0,0.22), 0 24px 24px 0 rgba(0,0,0,0.1);
+  }
+
+  .sign-up-title {
+      text-align: center;
+      color: #000000;
+      font-family: "Roboto", sans-serif;
+      font-size: 2.25em;
+      line-height: 49px;
+      font-weight: 300;
+      margin-top: 30px;
+      margin-bottom: 30px;
+  }
+
+  input[type="text"],
+  input[type="password"],
+  input[type="date"],
+  input[type="datetime"],
+  input[type="email"],
+  input[type="number"],
+  input[type="tel"],
+  input[type="time"],
+  input[type="url"],
+  textarea,
+  select {
+    background: #FFFFFF;
+    border-bottom: 1px solid #734B6D;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    font-size: 1em;
+    height: auto;
+    outline: none;
+    padding-top: 15px;
+    padding-bottom: 7px;
+    width: 80%;
+    background-color: #FFFFFF;
+    color: #373A39;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 25px;
+  }
+
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin: 0 4px 8px 0;
+  }
+
+  select {
+    padding: 6px;
+    height: 32px;
+    border-radius: 2px;
+  }
+.button-form {
+    text-align: center;
+}
+  .sign-up-button {
+    color: #FFF;
+    background: linear-gradient(270deg, #42275A 0%, #8F76A6 100%);
+    font-size: 1.2em;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 1px;
+    font-weight: 300;
+    height: 60px;	
+    width: 169px;
+    border-radius: 36px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.24), 0 0 8px 0 rgba(0,0,0,0.12);
+    margin-bottom: 10px;
+  }
+  .sign-up-button:hover {
+     
+    outline: none;
+    border: 0;
+  }
+  
+    
+  fieldset {
+    text-align: center;
+    margin-bottom: 20px;
+    border: none;
+  }
+
+
+  .number {
+    background-color: #5fcf80;
+    color: #fff;
+    height: 30px; 
+    width: 30px;
+    display: inline-block;
+    font-size: 0.8em;
+    margin-right: 4px;
+    line-height: 30px;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+    border-radius: 100%;
+  }
+
+  .login-link {
+    color: #242121;
+    opacity: 0.75;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.25em;
+    letter-spacing: 0.5px;
+  }
+  .login-link a {
+    color: #2980B9;
+  }
+  .login-link a:hover {
+      color: #242121;
+      text-decoration-line: none;
+  }
 
 /* ========================= Custom Settings ======================== */
     .site_name {
@@ -238,7 +370,7 @@ nav {
         font-size       : 1.2em;
         font-weight     : 400;
         text-align      : left;
-        padding-top     : 7px;
+        padding-top     : 10px;
         padding-left    : 30px;
     }
     
@@ -316,6 +448,13 @@ nav {
         border-bottom: 3px solid white;
         letter-spacing: 2px;
     }
+    footer h4 {
+        opacity: 0.75;
+        color: #242121;
+        font-family: "Roboto", sans-serif;
+        font-size: 1.2em;
+        font-weight: 400;
+    }
     /*
     .graph-img {
         width           : 80%;
@@ -335,6 +474,24 @@ nav {
     }
     .search-icon {
         display: none;
+    }
+    .text-section {
+        text-align: center;
+        margin-bottom: 5rem;
+        margin: 0 auto;
+    }
+    .check-out-best-and-w {
+        font-size: 1.9em;
+        line-height: 45px;
+       
+    }
+    .rate-img {
+        margin-bottom: 5rem;
+        margin-left: 5rem;
+    }
+    .ui-pleases-our-eyes {
+        font-size: 1.9em;
+        line-height: 45px;
     }
  }
 
