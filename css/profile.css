@@ -14,7 +14,40 @@
 
 
     /* ========================= Profile Cards ======================== */
+    .profile {
+        margin-top: 50px;
+        background-color: #FAFAFA;
+        display: flex;
+      
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+        box-shadow: 0 0 24px 0 rgba(0,0,0,0.22), 0 24px 24px 0 rgba(0,0,0,0.1);
+        border-radius: 15px;
+        padding-top: 35px;
+        padding-bottom: 35px;
+        padding-left: 35px;
+    }
 
+    
 
- 
+    /* ========================= Inner Card ======================== */
 
+    .user-title-section {
+       display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        
+    }
+
+   .profile-img {
+       width: 200px;
+       height: 200px;
+   }
+
+   .profile-user-title {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.3em;
+    text-align: left;
+    margin-left: 5rem;
+   }
