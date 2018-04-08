@@ -37,7 +37,7 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item" id="mynav_item">
-                        <a class="nav-link " href="#">Featured List</a>
+                        <a class="nav-link" href="#">Featured List</a>
                     </li>
                     <li class="nav-item" id="mynav_item">
                         <a class="nav-link" href="#">Dashboard</a>
@@ -52,7 +52,7 @@
             </div>
         </div>
     </nav>
- <!--
+    <!--
    <div class="container">
        <div class="row profile">
            <div class="col-md-3">
@@ -83,22 +83,116 @@
 </div>
 -->
 
-<div class="container">
-   <div class="profile">
-       <div class="user-title-section">
-           <div class="profile-user-pic">
-               <img src="assets/profile-img.jpg" alt="Profile Image" class="rounded-circle profile-img">
-           </div>
-           <div class="profile-user-title">
-               <h2>Jane Doe</h2>
-               <p>Member since: 01/01/2018</p>
-               <div class="edit-btn">
-                   <button class="btn btn-danger">Edit Profile</button>
-               </div>
-           </div>
-       </div>
-   </div>
-</div>
-    
+    <div class="container">
+        <div class="profile">
+            <div class="user-title-section">
+                <div class="profile-user-pic">
+                    <img src="assets/profile-img.jpg" alt="Profile Image" class="rounded-circle profile-img">
+                </div>
+                <div class="profile-user-title">
+                    <h2 id="user-name">Jane Doe</h2>
+                    <p>Member since: <span id="since-date">01/01/2018</span></p>
+                    <div class="edit-btn">
+                        <button class="edit-profile-btn">Edit Profile</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="rate-history">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="history-title">
+                        <h2>Total rated:
+                            <span id="total-rated"></span>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="app-site-container">
+                        <h3 id="web-app-name">Webisite/App Name</h3>
+                        <p id="platform-name">Platform Name</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="app-site-container">
+                        <h3 id="web-app-name">Webisite/App Name</h3>
+                        <p id="platform-name">Platform Name</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="app-site-container">
+                        <h3 id="web-app-name">Webisite/App Name</h3>
+                        <p id="platform-name">Platform Name</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="app-site-container">
+                        <h3 id="web-app-name">Webisite/App Name</h3>
+                        <p id="platform-name">Platform Name</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="app-site-container">
+                        <h3 id="web-app-name">Webisite/App Name</h3>
+                        <p id="platform-name">Platform Name</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="app-site-container">
+                        <h3 id="web-app-name">Webisite/App Name</h3>
+                        <p id="platform-name">Platform Name</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="app-site-container">
+                        <h3 id="web-app-name">Webisite/App Name</h3>
+                        <p id="platform-name">Platform Name</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="app-site-container">
+                        <h3 id="web-app-name">Webisite/App Name</h3>
+                        <p id="platform-name">Platform Name</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <footer style="background-color: #edeff0;">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="row">
+                    <div class="col-lg-6 col-xs-12">
+                        <h4>UX Nexus</h4>
+                    </div>
+                    <div class="col-lg-6 col-xs-12" style="text-align: right;">
+                        <h4>&copy Copyright 2018</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+    <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+    <script>
+        window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+        ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
+
+
+    </script>
 </body>
+
 </html>

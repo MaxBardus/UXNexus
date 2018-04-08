@@ -1,60 +1,60 @@
 /* ========================= GENERAL TAGS ======================== */
 
 body, html {
-    height              : 100%;
-    margin              : 0;
-    font-size           : 16px;
-    font-family         : "Roboto", sans-serif;
-    font-weight         : 400;
-    line-height         : 1.8em;
-    background-color    : #FAFAFA;
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    background-color: #FAFAFA;
 }
 
 nav {
-    background-color    : #FAFAFA;
-    height              : 94px;
+    background-color: #FAFAFA;
+    height: 94px;
 }
 
 .img-container {
-    background-image    : url('../img/homebanner.jpg');
-    height              : 85%;
-    background-position : center;
-    background-repeat   : no-repeat;
-    background-size     : cover;
-    position            : relative;
-    border-radius       : 0% 0% 150% 150%/0% 0% 40% 40%;
+    background-image: url('../img/naturebgr.jpg');
+    height: 85%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 0% 0% 150% 150%/0% 0% 40% 40%;
 }
 
 
 /* ========================= Layout ======================== */
 
 .banner-container {
-    text-align          : center;
-    padding-top         : 125px;
+    text-align: center;
+    padding-top: 125px;
 }
 .search-form {
-    margin-top          : 35px;
-    width               : 80%;
-    margin-left         : auto;
-    margin-right        : auto;
+    margin-top: 35px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .searchbar::placeholder {
-    color               : #848484;
+    color: #848484;
 
 }
 
 .elemenets-container {
-    padding-top         : 130px;
-    padding-bottom      : 130px;
+    padding-top: 130px;
+    padding-bottom: 130px;
 }
 
 
 
 .graph-container {
-    padding-left        : 125px;
+    padding-left: 125px;
 }
 .text-section {
-    width               : 90%;
+    width: 90%;
 }
 .spacing {
     margin-bottom: 60px;
@@ -63,7 +63,7 @@ nav {
 /* ========================= Section Style ======================== */
 
 .section-two {
-    background-color    : #F4F4F4;
+    background-color: #F4F4F4;
     
 }
 .section-form {
@@ -82,41 +82,41 @@ footer {
 
 /* ========================= Cards ======================== */
 .trend-flat {
-    border-radius       : 10px;
-    background          : linear-gradient(90deg, #42275A 0%, #734B6D 100%);
-    box-shadow          : 0 30px 50px -20px rgba(115,75,109,0.4);
+    border-radius: 10px;
+    background: linear-gradient(90deg, #42275A 0%, #734B6D 100%);
+    box-shadow: 0 30px 50px -20px rgba(115,75,109,0.4);
   
 }
 .trend-material {
     border-radius: 10px;
     background: linear-gradient(90deg, #C21500 0%, #FFAA00 100%);
-    box-shadow          : 0 30px 50px -20px rgba(255,170,0,0.2);
+    box-shadow: 0 30px 50px -20px rgba(255,170,0,0.2);
 }
 .trend-human {
     border-radius: 10px;
     background: linear-gradient(90deg, #2C3E50 0%, #3498DB 100%);
-    box-shadow          : 0 30px 50px -20px rgba(52,152,219,0.2);
+    box-shadow: 0 30px 50px -20px rgba(52,152,219,0.2);
 }
 .trend-fluent {
     border-radius: 10px;
     background: linear-gradient(90deg, #182848 0%, #4B6CB7 100%);
-    box-shadow          : 0 30px 50px -20px rgba(75,108,183,0.2);
+    box-shadow: 0 30px 50px -20px rgba(75,108,183,0.2);
 }
 .trend-skeuom {
     border-radius: 10px;
     background: linear-gradient(90deg, #283048 0%, #859398 100%);
-    box-shadow          : 0 30px 50px -20px rgba(133,147,152,0.2);
+    box-shadow: 0 30px 50px -20px rgba(133,147,152,0.2);
 }
 .flat-header {
-    color               : #FFFFFF;
-    text-transform      : uppercase;
-    font-family         : "Raleway", sans-serif;
-    font-size           : 1.5em;
-    font-weight         : 600;
-    line-height         : 20px;
-    letter-spacing      : 6px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+    font-size: 1.5em;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 6px;
  /*   margin-left         : 2.1875rem; */
-    margin-top          : 0.9375rem;
+    margin-top: 0.9375rem;
 }
 
 .card-semititle, .flat-card-text {
@@ -317,123 +317,123 @@ footer {
 
 /* ========================= Custom Settings ======================== */
     .site_name {
-        color           : #373A39;
-        font-family     : "Raleway", sans-serif;
-        text-transform  : uppercase;
-        font-size       : 1.5em;
-        font-weight     : 500;
-        line-height     : 29px;
+        color: #373A39;
+        font-family: "Raleway", sans-serif;
+        text-transform: uppercase;
+        font-size: 1.5em;
+        font-weight: 500;
+        line-height: 29px;
 
      
     }
     .logo_brand {
-        margin-right    : 19px;
+        margin-right: 19px;
         
      
     }
     .nav-item {
-        text-transform  : uppercase;
-        margin-left     : 49px;
+        text-transform: uppercase;
+        margin-left: 49px;
         
     }
     #mynav_item a {
-        color           : #373A39;
-        font-family     : "Raleway", sans-serif;
-        font-size       : 0.75em;
-        font-weight     : bold;
-        line-height     : 14px;
-        letter-spacing  : 1px;
+        color: #373A39;
+        font-family: "Raleway", sans-serif;
+        font-size: 0.75em;
+        font-weight: bold;
+        line-height: 14px;
+        letter-spacing: 1px;
     }
 
     .header-banner {
-        font-family     : "Raleway", sans-serif;
-        font-size       : 6.25em;
-        font-weight     : 600;
-        line-height     : 117px;
+        font-family: "Raleway", sans-serif;
+        font-size: 6.25em;
+        font-weight: 600;
+        line-height: 117px;
     }
 
     .header-paragraph {
-        color           : #FAFAFA;
-        opacity         : 0.95;
-        font-family     : "Raleway", sans-serif;
-        font-size       : 1.5em;
-        font-weight     : 500;
-        line-height     : 29px;
+        color: #FAFAFA;
+        opacity: 0.95;
+        font-family: "Raleway", sans-serif;
+        font-size: 1.5em;
+        font-weight: 500;
+        line-height: 29px;
     }
 
     .searchbar {
         background-color: #F5F5F5;
-        height          : 55px;
-        border          : 1px solid #F5F5F5;
-        border-radius   : 40px;
-        font-family     : "Roboto", sans-serif;
-        font-size       : 1.2em;
-        font-weight     : 400;
-        text-align      : left;
-        padding-top     : 10px;
-        padding-left    : 30px;
+        height: 55px;
+        border: 1px solid #F5F5F5;
+        border-radius: 40px;
+        font-family: "Roboto", sans-serif;
+        font-size: 1.2em;
+        font-weight: 400;
+        text-align: left;
+        padding-top: 10px;
+        padding-left: 30px;
     }
     
     .search-icon {
-        color           : black;
-        opacity         : 0.7;
-        font-size       : 31px;
-        position        : absolute;
-        top             : 25%;
-        right           : 30px;
+        color: black;
+        opacity: 0.7;
+        font-size: 31px;
+        position: absolute;
+        top: 25%;
+        right: 30px;
     }
 
     .scroll-btn {
-        margin-top      : 8rem;
+        margin-top: 8rem;
     }
 
     .uicircle-img {
-        width           : 75%;
+        width: 75%;
     }
 
     .ui-pleases-our-eyes, .ux-pleases-our-mind {
-        text-align      : center;
-        opacity         : 0.75;
-        color           : #373A39;
+        text-align: center;
+        opacity: 0.75;
+        color: #373A39;
         font-family: "Raleway", sans-serif;
-        font-size       : 2.25em;
-        font-weight     : 700;
+        font-size: 2.25em;
+        font-weight: 700;
         line-height     : 53px;
     }
 
     .ui-ux_paragraph {
-        color           : #373A39;
-        font-family     : "Roboto", sans-serif;
-        font-size       : 0.875em;
-        line-height     : 26px;
-        text-align      : left;
-        margin-top      : 35px;
-        margin-left     : 15px;
+        color: #373A39;
+        font-family: "Roboto", sans-serif;
+        font-size: 0.875em;
+        line-height: 26px;
+        text-align: left;
+        margin-top: 35px;
+        margin-left: 15px;
     }
 
     .check-out-best-and-w {
-        opacity         : 0.75;
-        color           : #373A39;
-        font-family     : "Raleway", sans-serif;
-        font-size       : 2.25em;
-        font-weight     : 600;
-        line-height     : 53px;
+        opacity: 0.75;
+        color: #373A39;
+        font-family: "Raleway", sans-serif;
+        font-size: 2.25em;
+        font-weight: 600;
+        line-height: 53px;
     }
 
     .stats_paragraph {
-        color           : #373A39;
-        font-family     : "Roboto", sans-serif;
-        font-size       : 1.125em;
-        line-height     : 35px;
+        color: #373A39;
+        font-family: "Roboto", sans-serif;
+        font-size: 1.125em;
+        line-height: 35px;
     }
     .rate-img {
         background-color: #2980B9;
-        border-radius   : 50%;
-        margin-left     : 50px;
-        width           : 60%;
+        border-radius: 50%;
+        margin-left: 50px;
+        width: 60%;
     }
     .search-img {
-     width              : 100%;
+     width: 100%;
     }
     .discover {
         text-align: center;
