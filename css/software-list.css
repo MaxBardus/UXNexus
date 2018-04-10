@@ -1,0 +1,192 @@
+/* ========================= GENERAL TAGS ======================== */
+.software-list, html {
+    background-color: #edeff0;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ========================= Layout ======================== */
+
+.search-list-page {
+    
+    margin-left: 1rem;
+    margin-right: auto;
+}
+
+.filters {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.filter-card {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 15px;
+    
+}
+.software-list-card {
+    background-color: #FAFAFA;
+    border-radius: 15px;
+    box-shadow: 0 30px 50px -20px rgba(0,0,0,0.1);
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.card-inner-img {
+    align-self: center;
+}
+.card-inner-img img {
+    max-width: 150px;
+    max-height: 150px;
+}
+.software-information {
+    margin-left: 40px;
+    align-self: center;
+    width: 45%;
+    
+}
+
+.software-paragraph {
+   
+}
+
+.check-btn:hover {
+    text-decoration-line: none;
+
+}
+.software-data {
+    align-self: center;
+}
+/* ========================= Custom Settings ======================== */
+
+.material-filter {
+    border-radius: 10px;
+    background: #fe8c00;  /* fallback for old browsers */
+  
+    
+}
+.human-filter {
+    
+    border-radius: 10px;
+    background: #3498DB
+  
+
+}
+.fluent-filter {
+    border-radius: 10px;
+    background: #4B6CB7; 
+   
+    
+}
+.flat-filter {
+    border-radius: 10px;
+    background: #734B6D;
+   
+}
+.filter-card {
+    text-align: center;
+}
+.filter-link {
+    text-transform: none;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+    
+    letter-spacing: 0.5px;
+}
+
+.filter-link:hover {
+    color: white;
+    text-decoration-line: none;
+}
+
+.filter-title {
+    margin-bottom: 25px;
+    font-size: 1.8rem;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+    opacity: 0.9;
+}
+.search-input {
+    margin-bottom: 50px;
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 0.4;
+}
+.software-title {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 2em;
+}
+.check-btn {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 1.5em;
+    color: #FC506B;
+}
+
+.software-data ul {
+    list-style-type: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 1.3em;
+}
+.software-data li {
+    margin-top: 2rem;
+}
+
+
+
+@media (max-width: 991.98px) { 
+    .filter-title {
+        text-align: center;
+        
+    }
+    .search-list-page {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .software-list-card {
+        flex-direction: column;
+        padding-left: 0;
+        padding-right: 0;
+       
+    }
+   
+    .software-information {
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+        width: 90%;
+    }
+    .software-title {
+        align-self: center;
+        text-align: center;
+        line-height: 4rem;
+    }
+    .software-paragraph {
+        text-align: center;
+        line-height: 2rem;
+    }
+    .software-data {
+        align-self: flex-start;
+    }
+   
+ }

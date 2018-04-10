@@ -40,14 +40,13 @@
         margin-top: 4rem;
         margin-bottom: 4rem;
         background-color: #FAFAFA;
-       
         border-radius: 15px;
         padding-left: 2rem;
         padding-right: 1rem;
         padding-top: 2rem;
         padding-bottom: 2rem;
     }
-
+ 
     /* ========================= Inner Card ======================== */
 
     .user-title-section {
@@ -80,6 +79,10 @@
    }
    .edit-btn {
        text-align: center;
+       display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+       justify-content: center;
    }
    .edit-profile-btn {
     text-align: center;
@@ -96,13 +99,14 @@
     -moz-border-radius: 32px;
     border-radius: 32px;
     margin: 10px 0;
-    background: linear-gradient(270deg, #42275A 0%, #8F76A6 100%);
+    background-color: #8E56C0;
     animation: fade-in 0.8s forwards;
    }
 
    .edit-profile-btn:hover {
     outline: none;
-    
+    text-decoration-line: none;
+    color: white;
    }
 
     .history-title {
@@ -137,3 +141,56 @@
         font-weight: 400;
         color: darkgrey;
   }
+  
+
+  .save-changes-btn {
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    color: white;
+    font-size: 1em;
+    padding: 10px 40px;
+    white-space: nowrap;
+    -webkit-border-radius: 32px;
+    -moz-border-radius: 32px;
+    border-radius: 32px;
+    margin: 10px 0;
+    background: #11998e;  /* fallback for old browsers */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    animation: fade-in 0.8s forwards;
+   }
+   .reset-pswd-btn {
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    color: white;
+    font-size: 1em;
+    padding: 10px 20px;
+    white-space: nowrap;
+    -webkit-border-radius: 32px;
+    -moz-border-radius: 32px;
+    border-radius: 32px;
+    margin: 10px 0;
+    background: #aa3a38;  /* fallback for old browsers */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    opacity: 0.9;;
+    animation: fade-in 0.8s forwards;
+   }
+   .reset-pswd-btn:hover {
+       color: white;
+       outline: none;
+       text-decoration-line: none;
+   }
+   .edit-profile-btn:hover {
+    outline: none;
+    
+   }
+   .edit-label {
+       padding-bottom: 0;
+       margin-top: 15px;
+   }
