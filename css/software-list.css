@@ -1,3 +1,5 @@
+/* SOFTWARE LIST PAGE & SOFTWARE ITEM PAGE */
+
 /* ========================= GENERAL TAGS ======================== */
 .software-list, html {
     background-color: #edeff0;
@@ -5,13 +7,6 @@
     font-size: 16px;
 
 }
-
-
-
-
-
-
-
 
 
 
@@ -62,9 +57,6 @@
     
 }
 
-.software-paragraph {
-   
-}
 
 .check-btn:hover {
     text-decoration-line: none;
@@ -72,6 +64,48 @@
 }
 .software-data {
     align-self: center;
+}
+.app-site-logo-container {
+    text-align: center;
+}
+.software-list-img {
+    max-width: 150px;
+    max-height: 150px;
+    
+}
+
+.software-item {
+    margin-top: 5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: #FAFAFA;
+    border-radius: 15px;
+}
+.not-status {
+    text-align: center;
+
+}
+.basic-information {
+    width: 80%;
+    margin-top: 1.5rem;
+
+}
+.software-name {
+    font-family: "Raleway", sans-serif;
+
+}
+.data-box {
+    display: inline-block;
+    margin-right: 2rem;
+    min-width: 100px;
+    padding: 0.5rem;
+    text-align: center;
+    border: 1px solid #424242;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2em;
+}
+.rating-row {
+    margin-top: 3rem;
 }
 /* ========================= Custom Settings ======================== */
 
@@ -150,7 +184,28 @@
 .software-data li {
     margin-top: 2rem;
 }
+.rating-container {
+margin-top: 1rem;
+}
+.rating-container h3 {
+    font-family: "Raleway", sans-serif;
+    
+    font-size: 2.2em;
+    text-align: center;
+    color: #007bff; 
+    letter-spacing: 1px
+}
 
+
+/* Rating Stars CSS */
+.star-rating {
+    line-height:32px;
+    font-size:2.3em;
+    text-align: center;
+    color: #424242;
+  }
+  
+  .star-rating .fa-star{color: #FFC107;}
 
 
 @media (max-width: 991.98px) { 

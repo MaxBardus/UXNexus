@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="icon" href="assets/nexuslogo.svg" />
+
     <title>UX Nexus</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Team Metis">
@@ -18,14 +18,15 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700|Roboto:300,400,500" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="icon" type="image/svg" href="assets/nexuslogo.svg">
     <!-- Custom styles -->
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
 
 </head>
 
-</html>
+<body class="software-list">
 
-<body class="profile-body">
     <nav class="navbar navbar-expand-lg" id="mainNav">
         <div class="container-fluid">
             <img class="logo_brand" src="assets/nexuslogo.svg" alt="UX Nexus">
@@ -39,7 +40,7 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item" id="mynav_item">
-                        <a class="nav-link" href="#">Featured List</a>
+                        <a class="nav-link selected-nav" href="#">Featured List</a>
                     </li>
                     <li class="nav-item" id="mynav_item">
                         <a class="nav-link" href="#">Dashboard</a>
@@ -55,82 +56,63 @@
         </div>
     </nav>
 
-    <div class="container">
-        <form class="edit-profile-form"  action="#" method="post">
+
+    <div class="container" style="margin: 0 auto;">
+        <div class="software-item">
             <div class="row">
-            <div class="col-lg-2 col-xs-12">
-                <div class="edit-label">
-                    Your Photo
-                </div>
-            </div>
-            <div class="col-lg-6 col-xs-12 offset-lg-2">
-                    <div class="upload-photo">
-                    vcbcf
-                        </div>
-            </div>
-            </div>
-            <br>
-            <br>
-            <div class="row">
-                <div class="col-lg-2 col-xs-12">
-                    <div class="edit-label">
-                        First Name
-                    </div>
-                </div>
-                <div class="col-lg-6 col-xs-12 offset-lg-2">
-                    <div class="input-field">
-                    <input type="text" class="edit-form-control" id="" style="background-color: #FAFAFA;" placeholder="First Name">
-                </div>
-                </div>
-            </div>
-            <br>
-            <div class="row">
-                    <div class="col-lg-2 col-xs-12">
-                        <div class="edit-label">
-                            Last Name
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-xs-12 offset-lg-2">
-                        <div class="input-field">
-                        <input type="text" class="edit-form-control" id="" style="background-color: #FAFAFA;" placeholder="Last Name">
-                    </div>
-                    </div>
-                </div>
-                <br>
-                <div class="row">
-                        <div class="col-lg-2 col-xs-12">
-                            <div class="edit-label">
-                                Username
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-xs-12 offset-lg-2">
-                            <div class="input-field">
-                            <input type="text" class="edit-form-control" id="" style="background-color: #FAFAFA;" placeholder="Username">
-                        </div>
-                        </div>
+                <div class="col-sm-12 col-lg-6">
+                    <div class="app-site-logo-container">
+                        <img class="app-site-logo img-fliud rounded-circle" src="http://via.placeholder.com/250x250" alt="App | Website Logo">
                     </div>
                     <br>
-                    <div class="row">
-                            <div class="col-lg-2 col-xs-12">
-                                <div class="edit-label">
-                                   Email
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-xs-12 offset-lg-2">
-                                <div class="input-field">
-                                <input type="email" class="edit-form-control" id="" style="background-color: #FAFAFA;" placeholder="Email">
-                            </div>
-                            </div>
+
+                </div>
+                <div class="col-sm-12 col-lg-6">
+                    <div class="basic-information">
+                        <h3 class="software-name" id="software_name">Placeholder</h3>
+                        <p class="software-paragraph" id="software_paragraph">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical
+                            Latin literature from 45 BC, making it over 2000 years old.</p>
+
+                        <div class="data-box">
+                            <span id="developer_name">Developer</span>
+                        </div>
+                        <div class="data-box">
+                            <span id="design_style">Design</span>
+                        </div>
+                        <div class="data-box">
+                            <span id="platform_name">Platform</span>
                         </div>
                         <br>
-                        <div class="row">
-                            <div class="col-lg-2 col-xs-12">
-            <button type="submit" class="save-changes-btn">Save Changes</button>
+                        <br>
+
+
+                    </div>
+                </div>
             </div>
-            
+            <div class="row rating-row">
+                <div class="col-sm-12 col-lg-12">
+                    <div class="rating-container">
+                        <h3>Rate User Experience</h3>
+                        <br>
+                        <div class="star-rating">
+                            <span class="fa fa-star-o" data-rating="1"></span>
+                            <span class="fa fa-star-o" data-rating="2"></span>
+                            <span class="fa fa-star-o" data-rating="3"></span>
+                            <span class="fa fa-star-o" data-rating="4"></span>
+                            <span class="fa fa-star-o" data-rating="5"></span>
+                            <input type="hidden" name="whatever1" class="rating-value" value="2.56">
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        </form>
+
     </div>
+
+
+
+    </div>
+
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
@@ -141,6 +123,28 @@
     <script src="js/app.js"></script>
     <script src="https://www.google-analytics.com/analytics.js" async defer></script>
     <script>
+        var $star_rating = $('.star-rating .fa');
+
+        var SetRatingStar = function () {
+            return $star_rating.each(function () {
+                if (parseInt($star_rating.siblings('input.rating-value').val()) >= parseInt($(this).data('rating'))) {
+                    return $(this).removeClass('fa-star-o').addClass('fa-star');
+                } else {
+                    return $(this).removeClass('fa-star').addClass('fa-star-o');
+                }
+            });
+        };
+
+        $star_rating.on('click', function () {
+            $star_rating.siblings('input.rating-value').val($(this).data('rating'));
+            return SetRatingStar();
+        });
+
+        SetRatingStar();
+        $(document).ready(function () {
+
+        });
+
         window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
         ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
 
@@ -148,5 +152,7 @@
     </script>
 
 
-
 </body>
+
+
+</html>
