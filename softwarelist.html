@@ -37,16 +37,16 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item" id="mynav_item">
+                    <li class="nav-item" id="mynav_item" onclick="goFeatureList()">
                         <a class="nav-link selected-nav" href="#">Featured List</a>
                     </li>
-                    <li class="nav-item" id="mynav_item">
+                    <li class="nav-item" id="mynav_item" onclick="goToDashboard()">
                         <a class="nav-link" href="#">Dashboard</a>
                     </li>
-                    <li class="nav-item" id="mynav_item">
+                    <li class="nav-item" id="mynav_item" onclick="goOurTeam()">
                         <a class="nav-link" href="#">Our Team</a>
                     </li>
-                    <li class="nav-item" id="mynav_item">
+                    <li class="nav-item" id="mynav_item" onclick="goMyAccunt()">
                         <a class="nav-link" href="#">My Account</a>
                     </li>
                 </ul>
@@ -219,6 +219,22 @@
         <script src="js/app.js"></script>
         <script src="https://www.google-analytics.com/analytics.js" async defer></script>
         <script>
+					
+					function goFeatureList(){
+				window.location.href = "softwarelist.html"
+			}
+			
+			function goToDashboard(){
+				window.location.href = "dashboard.html"
+			}
+			
+			function goOurTeam(){
+				window.location.href = "ourteam.html"
+			}
+			
+			function goMyAccunt(){
+				window.location.href = "userprofile.html"
+			}
             window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
             ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
 
